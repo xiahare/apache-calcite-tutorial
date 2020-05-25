@@ -69,4 +69,45 @@ public class TutorialColumn implements Serializable {
         this(name, sqlTypeName);
         this.precision = precision;
     }
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSqlTypeName() {
+		return sqlTypeName;
+	}
+
+	public void setSqlTypeName(String sqlTypeName) {
+		this.sqlTypeName = sqlTypeName;
+	}
+
+	public boolean isPrimary() {
+		return primary;
+	}
+
+	public void setPrimary(boolean primary) {
+		this.primary = primary;
+	}
+
+	public Integer getPrecision() {
+		return precision;
+	}
+
+	public void setPrecision(Integer precision) {
+		this.precision = precision;
+	}
+
+	public Integer getScale() {
+		return scale;
+	}
+
+	public void setScale(Integer scale) {
+		this.scale = scale;
+	}
+    
 }

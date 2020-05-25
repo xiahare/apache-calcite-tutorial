@@ -45,4 +45,14 @@ public class TutorialTable extends AbstractTable implements Serializable {
         }
         return typeFactory.createStructType(Pair.zip(names, types));
     }
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
 }

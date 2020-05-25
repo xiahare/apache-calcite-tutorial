@@ -93,4 +93,24 @@ public class TutorialTable extends AbstractTable implements Serializable {
     public Statistic getStatistic() {
         return new TutorialStatistic(this);
     }
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public List<TutorialColumn> getSqlExecuteColumnList() {
+		return sqlExecuteColumnList;
+	}
+
+
+	public void setSqlExecuteColumnList(List<TutorialColumn> sqlExecuteColumnList) {
+		this.sqlExecuteColumnList = sqlExecuteColumnList;
+	}
 }
