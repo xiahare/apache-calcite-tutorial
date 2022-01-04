@@ -21,7 +21,7 @@
 
     <properties>
         <slf4j.version>1.7.25</slf4j.version>
-        <log4j.version>2.10.0</log4j.version>
+        <log4j.version>2.17.1</log4j.version>
         <java.version>1.8</java.version>
         <drill-fmpp-maven-plugin.version>1.14.0</drill-fmpp-maven-plugin.version>
         <freemarker.version>2.3.28</freemarker.version>
